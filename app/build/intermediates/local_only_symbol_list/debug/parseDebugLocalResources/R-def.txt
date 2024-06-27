@@ -6,6 +6,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable messi
 id button
+id button2
 id contenido
 id idItem
 id imageView

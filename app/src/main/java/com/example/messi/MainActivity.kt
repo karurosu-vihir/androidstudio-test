@@ -1,6 +1,8 @@
 package com.example.messi
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,6 +20,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        val boton = findViewById<Button>(R.id.button2)
+        boton.setOnClickListener {
+            val intent = Intent(this, InfoGeneral::class.java)
+            startActivity(intent)
+        }
         baseHelper = BaseDatosHelper(this)
     }
 }
