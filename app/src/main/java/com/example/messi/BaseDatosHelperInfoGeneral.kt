@@ -10,9 +10,9 @@ class BaseDatosHelper (context: Context) : SQLiteOpenHelper(context, NOMBRE_BASE
         val NOMBRE_BASE_DATOS = "InfoGeneral.db"
         val VERSION_BASE_DATOS = 1
         private const val NOMBRE_TABLA = "datosmessi"
-        private const val COLUMNA_TITULO = "titulo"
-        private const val COLUMNA_ID = "id"
-        private const val CONTENIDO_TABLA = "contenido"
+        public const val COLUMNA_TITULO = "titulo"
+        public const val COLUMNA_ID = "id"
+        public const val CONTENIDO_TABLA = "contenido"
     }
 
     override fun onCreate(db: SQLiteDatabase?) {
@@ -26,17 +26,18 @@ class BaseDatosHelper (context: Context) : SQLiteOpenHelper(context, NOMBRE_BASE
         onCreate(db)
     }
 
-    /*fun insertarDatos(titulo: String, contenido: String){
+    fun insertarDatos(titulo: String, contenido: String){
         val db = writableDatabase
-        val datos = ContentValues()
-        datos.put(COLUMNA_TITULO, titulo)
-        datos.put(CONTENIDO_TABLA, contenido)
-    }*/
+        val valores = ContentValues()
+        valores.put(COLUMNA_TITULO, titulo)
+        valores.put(CONTENIDO_TABLA, contenido)
+        db.insert(NOMBRE_TABLA, null, valores)
+    }
 
-    /*fun obtenerDatos(): Cursor {
+    fun obtenerDatos(): Cursor {
         val db = readableDatabase
-        return db.rawQuery("SELECT * FROM $NOMBRE_TABLA", null)
-    }*/
+        return db.rawQuery("SELECT id, id as _id, titulo, contenido FROM $NOMBRE_TABLA", null)
+    }
 
 
 }
