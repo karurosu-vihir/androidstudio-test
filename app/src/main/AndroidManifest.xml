@@ -16,6 +16,9 @@
             android:name=".InfoGeneral"
             android:exported="false" />
         <activity
+            android:name=".PremiosActivity"
+            android:exported="true" />
+        <activity
             android:name=".GolesMarcados"
             android:exported="false" />
         <activity
