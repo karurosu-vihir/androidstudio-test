@@ -13,6 +13,7 @@ id lista
 id main
 id textView
 id titulo
+id txtYes
 layout activity_info_general
 layout activity_main
 layout iteminfogeneral

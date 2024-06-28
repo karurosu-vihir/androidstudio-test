@@ -3581,6 +3581,7 @@ int id transition_position 0x7f0801e1
 int id transition_scene_layoutid_cache 0x7f0801e2
 int id transition_transform 0x7f0801e3
 int id triangle 0x7f0801e4
+int id txtYes 0x7f0801fc
 int id unchecked 0x7f0801e5
 int id uniform 0x7f0801e6
 int id unlabeled 0x7f0801e7
