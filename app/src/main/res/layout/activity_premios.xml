@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andoid="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginHorizontal="20dp"
+
+    >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premios Obtenidos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/messi_premios" />
+        android:src="@drawable/messi_premios"
+        android:layout_marginTop="10dp"/>
 
     <ListView
         android:id="@+id/listaPremios"
@@ -23,6 +39,7 @@
     <Button
         android:id="@+id/btnAtras"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Atrás" />
+        android:layout_height="56dp"
+        android:text="Atrás"
+        android:layout_marginTop="10dp"/>
 </LinearLayout>

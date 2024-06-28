@@ -26,9 +26,9 @@ class PremiosActivity : AppCompatActivity() {
         val btnAtras = findViewById<Button>(R.id.btnAtras)
 
         //Adapter
-        val elmtVista = intArrayOf(R.id.idItem, R.id.descripcion ,R.id.cantidad, R.id.categoria)
+        val elmtVista = intArrayOf(R.id.descripcion ,R.id.cantidad, R.id.categoria)
 
-        val columnas = arrayOf(BaseDatosHelper.COLUMNA_ID, BaseDatosHelper.COLUMNA_DESCRIPCIONPREMIOS, BaseDatosHelper.COLUMNA_CANTIDADPREMIOS, BaseDatosHelper.COLUMNA_CATEGORIAPREMIOS)
+        val columnas = arrayOf(BaseDatosHelper.COLUMNA_DESCRIPCIONPREMIOS, BaseDatosHelper.COLUMNA_CANTIDADPREMIOS, BaseDatosHelper.COLUMNA_CATEGORIAPREMIOS)
 
         baseHelper=BaseDatosHelper(this)
         val premios=baseHelper.MostrarPremios()

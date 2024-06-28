@@ -21,13 +21,13 @@ class InfoGeneral : AppCompatActivity() {
             insets
         }
 //        Variables
-        val atras = findViewById<Button>(R.id.button)
+        val atras = findViewById<Button>(R.id.btnAtras)
         val listaInfoGeneral = findViewById<ListView>(R.id.lista)
 
 //        Elemento del adapter
-        val elemvista =intArrayOf(R.id.idItem, R.id.titulo, R.id.contenido)
+        val elemvista =intArrayOf(R.id.titulo, R.id.contenido)
 
-        val columnas = arrayOf(BaseDatosHelper.COLUMNA_ID, BaseDatosHelper.COLUMNA_TITULO, BaseDatosHelper.CONTENIDO_TABLA)
+        val columnas = arrayOf(BaseDatosHelper.COLUMNA_TITULO, BaseDatosHelper.CONTENIDO_TABLA)
 
         baseHelper=BaseDatosHelper(this)
         val caracteristicas=baseHelper.MostrarInfoGeneral()

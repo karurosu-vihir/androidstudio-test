@@ -5,20 +5,14 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/idItem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:text="ID" />
-
 
     <TextView
         android:id="@+id/descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Descripción:"
         android:textSize="16sp"
-        android:text="Descripción:" />
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/cantidad"
         android:layout_width="match_parent"

@@ -25,9 +25,9 @@ class GolesMarcados : AppCompatActivity() {
         val btnAtras = findViewById<Button>(R.id.btnAtras)
 
         //Adapter
-        val elmtVista = intArrayOf(R.id.idItem,R.id.equipo, R.id.goles)
+        val elmtVista = intArrayOf(R.id.equipo, R.id.goles)
 
-        val columnas = arrayOf(BaseDatosHelper.COLUMNA_ID, BaseDatosHelper.COLUMNA_EQUIPO, BaseDatosHelper.COLUMNA_CANTIDADGOLES)
+        val columnas = arrayOf(BaseDatosHelper.COLUMNA_EQUIPO, BaseDatosHelper.COLUMNA_CANTIDADGOLES)
 
         baseHelper=BaseDatosHelper(this)
         val goles=baseHelper.MostrarGoles()
