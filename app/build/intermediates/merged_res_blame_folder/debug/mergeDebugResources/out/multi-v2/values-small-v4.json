@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.messi.app-mergeDebugResources-29:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.messi.app-mergeDebugResources-2:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Erick\\.gradle\\caches\\transforms-4\\fd7ac9402c76169931bff3ac8df07219\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-4\\fd7ac9402c76169931bff3ac8df07219\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
