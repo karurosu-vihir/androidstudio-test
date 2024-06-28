@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Messi" >
         <activity
+            android:name="com.example.messi.InfoGeneral"
+            android:exported="false" />
+        <activity
+            android:name="com.example.messi.GolesMarcados"
+            android:exported="false" />
+        <activity
             android:name="com.example.messi.MainActivity"
             android:exported="true" >
             <intent-filter>
