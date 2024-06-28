@@ -31,10 +31,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, InfoGeneral::class.java)
             startActivity(intent)
         }
-        /*premios.setOnClickListener {
-            val intent = Intent(this, Premios::class.java)
+        premios.setOnClickListener {
+            val intent = Intent(this, PremiosActivity::class.java)
             startActivity(intent)
-        }*/
+        }
         goles.setOnClickListener {
             val intent = Intent(this, GolesMarcados::class.java)
             startActivity(intent)

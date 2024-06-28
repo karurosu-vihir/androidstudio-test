@@ -31,6 +31,9 @@
             android:name="com.example.messi.InfoGeneral"
             android:exported="false" />
         <activity
+            android:name="com.example.messi.PremiosActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.messi.GolesMarcados"
             android:exported="false" />
         <activity

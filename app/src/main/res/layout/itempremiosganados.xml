@@ -12,18 +12,19 @@
         android:textSize="16sp"
         android:text="ID" />
 
-    <TextView
-        android:id="@+id/premio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:text="Premio:" />
+
     <TextView
         android:id="@+id/descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:text="Descripción:" />
+    <TextView
+        android:id="@+id/cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Cantidad:" />
     <TextView
         android:id="@+id/categoria"
         android:layout_width="match_parent"

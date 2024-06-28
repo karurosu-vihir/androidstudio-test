@@ -3044,6 +3044,7 @@ drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable messi
 drawable messi_jpg
+drawable messi_premios
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3207,7 +3208,9 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cantidad
 id carryVelocity
+id categoria
 id center
 id centerCrop
 id centerInside
@@ -3250,6 +3253,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descripcion
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3355,6 +3359,7 @@ id listMode
 id list_item
 id lista
 id listaGoles
+id listaPremios
 id m3_side_sheet
 id main
 id marquee
@@ -3734,6 +3739,7 @@ layout abc_tooltip
 layout activity_goles_marcados
 layout activity_info_general
 layout activity_main
+layout activity_premios
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3754,6 +3760,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout itemgolesmarcados
 layout iteminfogeneral
+layout itempremiosganados
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

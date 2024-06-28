@@ -6,6 +6,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable messi
 drawable messi_jpg
+drawable messi_premios
 id Nombre
 id año
 id btnAtras
@@ -13,7 +14,10 @@ id btnInfoPersonal
 id btngoles
 id btnpremios
 id button
+id cantidad
+id categoria
 id contenido
+id descripcion
 id equipo
 id goles
 id idItem
@@ -22,14 +26,17 @@ id imagenprincipal
 id img_messi
 id lista
 id listaGoles
+id listaPremios
 id main
 id textView
 id titulo
 layout activity_goles_marcados
 layout activity_info_general
 layout activity_main
+layout activity_premios
 layout itemgolesmarcados
 layout iteminfogeneral
+layout itempremiosganados
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap leomessi
